@@ -1,0 +1,6 @@
+.dockerignore
+model.txt
+key.txt
+dockerfile
+docker-compose.yml
+README.md

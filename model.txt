@@ -1,0 +1,27 @@
+  {
+      "id": 1839,
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "num_market_pairs": 536,
+      "date_added": "2017-07-25T00:00:00.000Z",
+      "max_supply": 170532785,
+      "circulating_supply": 153432897,
+      "total_supply": 169432897,
+      "cmc_rank": 4,
+      "last_updated": "2021-06-19T02:58:07.000Z",
+      "quote": {
+        "USD": {
+          "price": 336.3954679174539,
+          "volume_24h": 1591622109.2969918,
+          "percent_change_1h": -1.38766337,
+          "percent_change_24h": -3.93803477,
+          "percent_change_7d": 2.01799357,
+          "percent_change_30d": -0.74695323,
+          "percent_change_60d": -30.94874858,
+          "percent_change_90d": 27.28933948,
+          "market_cap": 51614131180.245514,
+          "last_updated": "2021-06-19T02:58:07.000Z"
+        }
+      },
+      "hash_ticket": sadglñkjgaslj
+    }
