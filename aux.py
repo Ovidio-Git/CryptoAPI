@@ -98,6 +98,7 @@ def save_crypto(db_connection, ticker_data=None):
 
 
 def run():
+    
     # connecting to MongoDB
     connection = get_db('mongodb://root:root@db:27017/')
     # save coinmarket API data in tickers
@@ -112,6 +113,18 @@ def run():
     for ticker in tickers['data']:
         save_crypto(connection, ticker)
     print("Data save in MongoDB")
+
+       # while True:
+    #     print("Saving information in Cryptongo")
+    #     # connecting to MongoDB
+    #     connection = get_db('mongodb://root:root@db:27017/')
+    #     # save coinmarket API data in tickers
+    #     # tickers = coinmarket_API()
+
+    #     for ticker in tickers['data']:
+    #         save_crypto(connection, ticker)
+    #     print("Data save in MongoDB")
+    #     time.sleep(60)
     
 
 

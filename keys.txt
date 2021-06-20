@@ -1,0 +1,10 @@
+CoinMarket API KEY
+
+X-CMC_PRO_API_KEY = 6cffef2a-0ed2-45fa-a390-0a59164df93f
+
+JWT root Access tocken 
+
+
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjQxNjgwOTQsImlhdCI6MTYyNDE2Nzc5NCwibmJmIjoxNjI0MTY3Nzk0LCJpZGVudGl0eSI6MX0.IXgrD8oax14jSvmTJWu83j52P8L4exxwKA28rXWtzF0"
+}

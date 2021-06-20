@@ -1,1 +1,0 @@
-X-CMC_PRO_API_KEY = 6cffef2a-0ed2-45fa-a390-0a59164df93f
