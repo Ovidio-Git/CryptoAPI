@@ -60,8 +60,8 @@ def get_ticker_hash(ticker_data):
 
 
 # create data base cryptongo
-def get_db(link):
-    client = pymongo.MongoClient(link)
+def get_db(URI):
+    client = pymongo.MongoClient(URI)
     return client.cryptongo
 
 
