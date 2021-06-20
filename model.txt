@@ -23,5 +23,5 @@
           "last_updated": "2021-06-19T02:58:07.000Z"
         }
       },
-      "hash_ticket": sadglñkjgaslj
+      "hash_ticket": "sadglñkjgaslj"
     }
