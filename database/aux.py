@@ -107,7 +107,7 @@ def run():
         for ticker in tickers['data']:
             save_crypto(connection, ticker)
         print("Data save in MongoDB")
-        time.sleep(60)
+        time.sleep(300)
 
 
 if __name__=='__main__':
