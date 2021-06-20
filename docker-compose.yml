@@ -14,7 +14,7 @@ services:
       - .:/app
 
   mongo:
-    image: mongo
+    image: mongo:4.4.6
     container_name: db
     restart: always
     environment:

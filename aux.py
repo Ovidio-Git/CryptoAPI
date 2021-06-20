@@ -26,7 +26,7 @@ def coinmarket_API():
         
 
 
-# create hash for data tickers indentification 
+# create hash for data tickers unique indentification 
 def get_hash(value):
     # import hash library
     from hashlib import sha512
@@ -39,7 +39,7 @@ def first_element(elements):
     return elements[0]
 
 
-# order information for get hash of each ticker
+# order information for get hash unique of each ticker
 def get_ticker_hash(ticker_data):
     from collections import OrderedDict
     # order data for items of ticker data
@@ -76,6 +76,12 @@ def check_if_exists(db_connection, ticker_data):
 
 # save information to coinmarket in mongoDB
 def save_crypto(db_connection, ticker_data=None):
+
+    del ticker_data['id']
+    del ticker_data['tags']
+    del ticker_data['slug']
+    del ticker_data['platform']
+    
     # verifiation if ticker_data not exists
     if not ticker_data:
         return False
@@ -87,7 +93,7 @@ def save_crypto(db_connection, ticker_data=None):
     ticker_hash = get_ticker_hash(ticker_data)
     # create ticker hash field in ticker data documents
     ticker_data['ticker_hash'] = ticker_hash
-    db_connection.cryptocurrencies.insert_one(ticker_data)
+    db_connection.tickers.insert_one(ticker_data)
     return True
 
 
