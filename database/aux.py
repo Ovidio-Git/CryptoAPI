@@ -11,7 +11,7 @@ def coinmarket_API():
     # credentials for access to api
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': '6cffef2a-0ed2-45fa-a390-0a59164df93f',
+        'X-CMC_PRO_API_KEY': 'INSERT KEY',
     }
     # send autentication credentials
     session = Session()
