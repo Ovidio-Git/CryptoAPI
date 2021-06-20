@@ -11,7 +11,7 @@ def coinmarket_API():
     # credentials for access to api
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': 'INSERT KEY',
+        'X-CMC_PRO_API_KEY': '6cffef2a-0ed2-45fa-a390-0a59164df93f',
     }
     # send autentication credentials
     session = Session()
@@ -107,7 +107,7 @@ def run():
         for ticker in tickers['data']:
             save_crypto(connection, ticker)
         print("Data save in MongoDB")
-        time.sleep(300)
+        time.sleep(60)
 
 
 if __name__=='__main__':
