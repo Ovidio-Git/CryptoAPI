@@ -24,6 +24,8 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
     }
   ```
   
+  
+  
 2- `GET /api/cryptos/info`
 <br>Description: Show database info.
 - Example:
@@ -37,6 +39,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
     "Number of Documents": 1044
   }
   ```
+  
   
   
 3- `GET /api/cryptos/<name>`
@@ -82,7 +85,8 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
     }
   ```
 
-3- `GET /api/cryptos`
+
+4- `GET /api/cryptos`
 <br>Description: Show items with limits and names .
 - Example:
   <br>[http://127.0.0.1:5000/api/cryptos?limit=2&name=Bitcoin](http://127.0.0.1:5000/api/cryptos?limit=2&name=Bitcoin)
@@ -141,4 +145,16 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
     "total_supply": 18739650
   }
 ]
+  ```
   
+5- `DELETE /api/cryptos/delete`
+<br>Description: Delete documents with JWT  authentication.
+- Example:
+  <br>[http://127.0.0.1:5000/api/cryptos/delete?name=Ethereum](http://127.0.0.1:5000/api/cryptos/delete?name=Ethereum)
+
+ Response:
+   ```json
+    {
+			  "Document delete": "Success operation"
+		}
+  ```
