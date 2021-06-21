@@ -46,6 +46,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   
 <br>  
 <br>  
+
 **3-** `GET /api/cryptos/<name>`
 <br>
 <br>Description: Show items for names.
@@ -91,6 +92,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   ```
 <br>
 <br>
+
 **4-** `GET /api/cryptos`
 <br>
 <br>Description: Show items with limits and names .
@@ -154,6 +156,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   ```
 <br>
 <br>
+
 **5-** `DELETE /api/cryptos/delete`
 <br>
 <br>Description: Delete documents with JWT  authentication.
