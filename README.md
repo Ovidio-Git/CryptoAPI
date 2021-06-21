@@ -12,7 +12,6 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
 ## Endpoints
 
 `GET /api/`
-
 <br>Description: HomePage.
 - Example:
   <br>[http://127.0.0.1:5000/api/](http://127.0.0.1:5000/api)
@@ -23,5 +22,6 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
       "name": "Cryptongo API",
       "Description":"This is a App that connects to CoinMarketCap API and save of the cryptocurrencies information in MongoDB database"
     }
-    ```
+    
+  ```
 
