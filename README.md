@@ -12,7 +12,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
 ## Endpoints
 <br>
 
-**1**- `GET /api/`
+**1-** `GET /api/`
 <br>
 <br>Description: HomePage.
 - Example:
@@ -29,7 +29,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
 <br>
 <br>
 
-2- `GET /api/cryptos/info`
+**2-** `GET /api/cryptos/info`
 <br>
 <br>Description: Show database info.
 - Example:
@@ -46,7 +46,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   
 <br>  
 <br>  
-3- `GET /api/cryptos/<name>`
+**3-** `GET /api/cryptos/<name>`
 <br>
 <br>Description: Show items for names.
 - Example:
@@ -91,7 +91,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   ```
 <br>
 <br>
-4- `GET /api/cryptos`
+**4-** `GET /api/cryptos`
 <br>
 <br>Description: Show items with limits and names .
 - Example:
@@ -154,7 +154,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   ```
 <br>
 <br>
-5- `DELETE /api/cryptos/delete`
+**5-** `DELETE /api/cryptos/delete`
 <br>
 <br>Description: Delete documents with JWT  authentication.
 - Example:
