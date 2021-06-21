@@ -155,6 +155,6 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
  Response:
    ```json
     {
-			  "Document delete": "Success operation"
-		}
+	 "Document delete": "Success operation"
+    }
   ```
