@@ -10,8 +10,9 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
 
 
 ## Endpoints
-
+<br>
 1- `GET /api/`
+<br>
 <br>Description: HomePage.
 - Example:
   <br>[http://127.0.0.1:5000/api/](http://127.0.0.1:5000/api)
@@ -24,9 +25,11 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
     }
   ```
   
-  
-  
+<br>
+<br>
+
 2- `GET /api/cryptos/info`
+<br>
 <br>Description: Show database info.
 - Example:
   <br>[http://127.0.0.1:5000/api/cryptos/info](http://127.0.0.1:5000/api/cryptos/info)
@@ -40,9 +43,10 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   }
   ```
   
-  
-  
+<br>  
+<br>  
 3- `GET /api/cryptos/<name>`
+<br>
 <br>Description: Show items for names.
 - Example:
   <br>[http://127.0.0.1:5000/api/cryptos/Cardano](http://127.0.0.1:5000/api/cryptos/Cardano)
@@ -84,9 +88,10 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
       "Error": "Cryptocurrency not found"
     }
   ```
-
-
+<br>
+<br>
 4- `GET /api/cryptos`
+<br>
 <br>Description: Show items with limits and names .
 - Example:
   <br>[http://127.0.0.1:5000/api/cryptos?limit=2&name=Bitcoin](http://127.0.0.1:5000/api/cryptos?limit=2&name=Bitcoin)
@@ -146,8 +151,10 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   }
 ]
   ```
-  
+<br>
+<br>
 5- `DELETE /api/cryptos/delete`
+<br>
 <br>Description: Delete documents with JWT  authentication.
 - Example:
   <br>[http://127.0.0.1:5000/api/cryptos/delete?name=Ethereum](http://127.0.0.1:5000/api/cryptos/delete?name=Ethereum)
