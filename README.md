@@ -24,8 +24,22 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
     }
   ```
   
+2- `GET /api/cryptos/info`
+<br>Description: Show database info.
+- Example:
+  <br>[http://127.0.0.1:5000/api/cryptos/info](http://127.0.0.1:5000/api/cryptos/info)
+
+ Response:
+   ```json
+  {
+    "Creation date": "jun 19-2021 23:54",
+    "Creator Name": "Ovidio Andrade Zambrano",
+    "Number of Documents": 1044
+  }
+  ```
   
-2- `GET /api/cryptos/<name>`
+  
+3- `GET /api/cryptos/<name>`
 <br>Description: Show items for names.
 - Example:
   <br>[http://127.0.0.1:5000/api/cryptos/Cardano](http://127.0.0.1:5000/api/cryptos/Cardano)
@@ -62,7 +76,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
   ```
   
  Else:
-    ```json
+  ```json
     {
       "Error": "Cryptocurrency not found"
     }
