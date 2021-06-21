@@ -12,7 +12,7 @@ Proyect made with Mongo 4.4.6, Flask, Python 3.7 and JWT autetication
 ## Endpoints
 <br>
 
-1- `GET /api/`
+**1**- `GET /api/`
 <br>
 <br>Description: HomePage.
 - Example:
